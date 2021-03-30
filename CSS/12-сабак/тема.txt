@@ -1,0 +1,18 @@
+- өлчөө бирдиги: px, rem, em, %
+    px - так өлчөө бирдиги
+    rem - html байлануучу бирдик
+    em - parent байлануучу бирдик
+    % - 
+- Box-model, padding, margin
+    розовый - margin(сырткы боштуктар)
+    оранжевый - border(рамка)
+    жашыл - padding(ички боштуктар) 
+- Background
+- Блок жана Inline (саптуу) модель
+    Display (жайгаштыруу, тегиздөө)
+- Псевдо элементтер жана класстар
+    :before, :after
+    :hover, :active, focus, :nth-child()
+- Анимация жана переход
+    transition - анимациянын ылдамдыгы
+    transform  - анимациялар  

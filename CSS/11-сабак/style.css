@@ -1,0 +1,35 @@
+/* ТЕГ аркылуу 
+класс аркылуу
+id аркылуу 
+атрибут аркылуу */
+
+/* footer div {
+    background-color: blue;
+}
+
+footer div {
+    background-color: red;
+} */
+
+.card {
+    background-color: yellow;
+}
+
+.card.box.block.my-card {
+    background-color: brown;
+}
+
+footer .menu {
+    background-color: pink;
+}
+
+.container #box {
+    background-color: green
+}
+
+[data-style='fatima'] {
+    background-color: orange;
+}
+header, footer, [target="_blank"]  {
+    background-color: orangered;
+}

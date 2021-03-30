@@ -1,0 +1,84 @@
+/* НЕГИЗГИ СТИЛЬДЕРДИН БАШЫ */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+/* НЕГИЗГИ СТИЛЬДЕРдин АЯГЫ */
+
+
+/* УНИВЕРСАЛДУУ СТИЛДЕР БАШЫ */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* УНИВЕРСАЛДУУ СТИЛДЕР АЯГЫ */
+
+
+
+/* 14 -сабак */
+
+
+/* HEADER START */
+.first-block {
+    background-color:#f7f7f7;
+    padding: 10px 0;
+}
+.first-block .container, .third-block .container {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul li {
+    margin-right: 26px;
+    color: #4d4a68;
+    font-size: 18px ;
+    font-weight: 500;
+}
+
+.menu li i  {
+    margin-right: 6px;
+
+}
+.menu li {
+    padding: 2px 18px 4px 0;
+    border-right: 1px solid #e3e3e3;
+}
+.menu li:last-child {
+    border-right: 0;
+}
+
+.gift {
+    position: relative;
+}
+.number {
+    position: absolute;
+    top: -4px;
+    right: 50px;
+    background: #e53453;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px;
+    width: 18px;
+}
+
+
+
+
+
+.second-block ul {
+    display: flex;
+    justify-content: space-around;
+}
+.third-block {
+    background-color: gray;
+}
+
+/* HEADER END */
+

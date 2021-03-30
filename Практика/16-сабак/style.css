@@ -1,0 +1,168 @@
+/* НЕГИЗГИ СТИЛЬДЕРДИН БАШЫ */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+ul, p {
+    margin: 0;
+    padding: 0;
+}
+/* НЕГИЗГИ СТИЛЬДЕРдин АЯГЫ */
+
+
+/* УНИВЕРСАЛДУУ СТИЛДЕР БАШЫ */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.red {color: #e53453;}
+.blue {color: #00bcd4;}
+.orange {color: orange;}
+/* УНИВЕРСАЛДУУ СТИЛДЕР АЯГЫ */
+
+
+
+/* 14 -сабак */
+
+
+/* HEADER START */
+.first-block {
+    background-color:#f7f7f7;
+    padding: 16px 0;
+}
+.first-block .container, .third-block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+ul li {
+    margin-right: 26px;
+    color: #4d4a68;
+    font-size: 18px ;
+    font-weight: 500;
+}
+
+.menu li i  {
+    margin-right: 6px;
+
+}
+.menu li {
+    padding: 2px 18px 4px 0;
+    border-right: 1px solid #e3e3e3;
+}
+.menu li:last-child {
+    border-right: 0;
+}
+
+.gift {
+    position: relative;
+}
+.number {
+    position: absolute;
+    top: -4px;
+    right: 50px;
+    background: #e53453;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 3px;
+    width: 18px;
+    color: white;
+}
+
+
+
+
+
+.second-block ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%
+}
+
+.second-menu {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #e3e3e3;
+    padding-right: 50px;
+}
+
+.second-menu:first-child, .second-menu:last-child {
+    border-right: 0;
+}
+
+.second-menu .left {
+    margin-right: 14px;
+}
+.little_text {
+    font-size: 15px;
+    color: grey;
+}
+.my-p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+
+.third-block {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+}
+.dropmenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #f7f7f7;
+    padding: 30px;
+
+}
+.dropmenu li {
+    margin-bottom: 10px;
+    color: #4d4a68;
+
+}
+.nav_menu:hover .dropmenu {
+    display: block;
+}
+.nav_menu:hover a {
+   background-color: #7cd0f5;
+   color: white;
+}
+.nav {
+    position: relative;
+}
+.nav_menu a {
+    color: #4d4a68;
+    transition: .3s;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.search {
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 26px;
+}
+/* HEADER END */
+

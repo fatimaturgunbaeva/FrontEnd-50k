@@ -1,0 +1,55 @@
+.new:after {
+    content: "Кийин!";  
+    color: #333; 
+    background-color: #fc0;
+    font-size: 12px; 
+    padding: 2px; 
+}
+.new:before {
+    content: "BEFORE";  
+    color: #333; 
+    background-color: pink;
+    font-size: 12px; 
+    padding: 2px; 
+}
+
+.hello {
+    margin: 20px 15px 10px 5px;
+    width: 80%;
+    height: 600px;
+    /* background: blue; */
+    background-image: url("https://wallpapercave.com/wp/wp2646303.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    color: white;
+    border: 5px solid red ;
+
+}
+.h1 {
+    display: inline-block;
+}
+.span {
+    display: block;
+}
+
+.display {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 5px solid pink;
+    height: 100px;
+    transition: .3s;
+}
+.display:hover {
+    background-color: palegreen;
+    color: red;
+    transform: scale(1.1);
+}
+.display li:nth-child(2) {
+    color: yellow;
+}
+.container div:nth-child(3){
+    background-color: teal;
+}

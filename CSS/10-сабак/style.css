@@ -1,0 +1,16 @@
+/* ТЕГ аркылуу */
+
+body {
+    background-color: #03a9f4;
+}
+body header ul li {
+    color: yellow;
+}
+
+.card {
+    background-color: yellow;
+}
+
+body .card {
+    background-color: purple;
+}
