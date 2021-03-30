@@ -3,3 +3,15 @@ Git - версиянын башкаруу (контроль) тутуму
 
 1. Git системаны компьютерге орнотуу
 2. Github профиль тузуу жана катталуу керек
+3. Папканы vscode редаторунан аып алыш керек
+4. 3-чу Git баскычты басып иницализация 
+5. Input тааласына commit жазып алышыбыз керек жана галачканы басабыз
+6. Create new repository 
+   (папканын аты жана репозиторийдин аты окшош болуш керек)on github, 
+   copy link of this new repository
+7. View -> Command Palllete -> Add Remote
+   - paste link, tab enter
+   - add new of repository/папканын аты
+8. Push 
+
+
