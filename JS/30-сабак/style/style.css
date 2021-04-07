@@ -119,9 +119,35 @@ ul li {
     font-size: 16px;
     font-weight: 700;
 }
+.basket, .flex-text {
+    display: flex;
+    align-items:center
 
-
-
+}
+.align-center {
+    align-items:center
+}
+.circle-basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+    border-radius: 30px;
+    
+}
+.circle-basket i{
+    font-size: 24px;
+}
+.flex-text span {
+    color: gray;
+    margin-left: 5px;
+}
+.product-icon .circle:hover {
+    cursor: pointer;
+}
 
 
 .third-block {
