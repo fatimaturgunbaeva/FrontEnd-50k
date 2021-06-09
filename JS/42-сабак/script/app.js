@@ -290,3 +290,20 @@
 // var num = 'cadmadkkadmkd';
 // console.log('Мен ' + num + ' жаштамын');
 // console.log(`Мен ${"cdls,cls"} жаштамын!`); 
+
+// EVENTS 
+var btn1 = document.getElementById("btn1")
+var btn2 = document.getElementById("btn2")
+
+
+// btn1.onclick = function(event){
+//     console.log(event.target)
+// }
+let delBtn = (e) => {
+    alert(`Вы нажали на : ${e.target.innerText}`)
+}
+
+btn1.addEventListener('click', delBtn);
+btn2.addEventListener('click', delBtn);
+
+
