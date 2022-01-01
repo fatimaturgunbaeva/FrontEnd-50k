@@ -313,3 +313,137 @@
 // for (item of document.body.childNodes) {
 //     console.log(item.nodeName)
 // }
+
+function hello(){
+    console.log("hello", this)
+}
+// hello()
+
+const obj = {
+    name: 'Ben',
+    age: 85,
+    sayHello: hello
+}
+
+// obj.sayHello()
+
+function Cat(name, age) {
+    this.name = name,
+    this.age = age,
+    this.fun = function(){
+        console.log('fun ' + name + 6)
+    }
+}
+
+const myCat = new Cat('Momo', 6)
+
+// console.log(myCat)
+// myCat.fun()
+
+
+function count(num){
+    return this + num
+}
+
+const result = count.bind(5)
+// console.log(result(80))
+
+function dog(a, b){
+    console.log('Dog', this)
+
+    function second(){
+        return a * b 
+        // console.log('Second', this)
+    }
+
+    console.log(second())
+}
+// dog(2,5)
+
+
+function info(){
+    console.log(this.name + ' ' + this.surename)
+}
+
+const fatima = {
+    name: "Fatima",
+    surename: "Turgunbaeva"
+}
+
+// info.call(fatima)
+
+
+
+const title = document.querySelector('.heading__title')
+// console.log(title)
+
+title.addEventListener('click', function(){
+    this.style.color = 'green'
+})
+
+
+
+
+
+
+
+
+
+
+
+// (function () {
+//     // 'use strict'
+//     console.log(this)
+
+//     function show(a, b) {
+//         console.log(this)
+//         return a + b
+
+//     }
+//     console.log(show())
+    
+//     // -----
+//     const obj = {
+//         name: 'sss',
+//         sum: function () {
+//             console.log(this)
+//         }
+//     }
+//     obj.sum()
+
+//     // -----
+//     function Cat(name, age) {
+//         this.name = name,
+//         this.age = age,
+//         this.fun = function () {
+//             console.log('hello ' + name)
+//         }
+//     }
+//     let cat = new Cat('lop', 5);
+//     cat.fun()
+
+
+
+
+//     // ---------
+//     function hello(age) {
+//         console.log(this);
+//         console.log(this.name);
+//         console.log(this.age)
+//     }
+//     const ant = {
+//         name: 'Leo'
+//     }
+//     hello.call(ant, 5)
+//     hello.call(ant, ['2'])
+
+
+
+//     // ------
+//     function count(num) {
+//         return this + num;
+//     }
+//     const mnojitel = count.bind(5)
+//     console.log(mnojitel(10))
+// }());
+
